@@ -1,0 +1,40 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["simple-import-sort"],
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "globals": {
+    "BigInt": true
+  },
+  "extends": ["eslint:recommended", "prettier", "plugin:prettier/recommended"],
+  "rules": {
+    "no-unused-vars": "off",
+    "complexity": ["error"],
+    "curly": ["error", "multi-or-nest", "consistent"],
+    "dot-notation": "error",
+    "eqeqeq": ["error", "smart"],
+    "no-new": "error",
+    "no-param-reassign": "error",
+    "no-throw-literal": "error",
+    "func-style": ["warn", "declaration"],
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "semi": false
+      }
+    ],
+    "simple-import-sort/imports": "error",
+    "no-restricted-imports": [
+      "error",
+      {
+        "patterns": ["./", "../", "~/"]
+      }
+    ]
+  }
+}

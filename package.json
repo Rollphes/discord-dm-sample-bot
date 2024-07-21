@@ -1,0 +1,22 @@
+{
+	"name": "discord-dm-sample-bot",
+	"version": "0.0.1",
+	"main": "bin/index.js",
+	"scripts": {
+		"start": "node bin/index.js",
+		"lint": "eslint ."
+	},
+	"keywords": [],
+	"author": "Rollphes",
+	"license": "MIT",
+	"dependencies": {
+		"discord.js": "14.15.3"
+	},
+	"devDependencies": {
+		"eslint": "^8.57.0",
+		"eslint-config-prettier": "9.1.0",
+		"eslint-plugin-prettier": "5.2.1",
+		"eslint-plugin-simple-import-sort": "12.1.1",
+		"prettier": "3.3.3"
+	}
+}
