@@ -10,7 +10,8 @@
 	"author": "Rollphes",
 	"license": "MIT",
 	"dependencies": {
-		"discord.js": "14.15.3"
+		"discord.js": "14.15.3",
+		"express": "^4.19.2"
 	},
 	"devDependencies": {
 		"eslint": "^8.57.0",
