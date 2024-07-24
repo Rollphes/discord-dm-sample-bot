@@ -37,9 +37,7 @@ class Server extends EventEmitter {
       }
 
       this.emit('resisted', userData)
-      res.send(
-        '通知登録頂きありがとうございます！<br>あなたのDMにBOTからDMを送信しましたのでご確認ください！',
-      )
+      res.send('You have successfully registered. Message sent to your DM.')
     })
 
     this.app.listen(this.PORT, () => {
